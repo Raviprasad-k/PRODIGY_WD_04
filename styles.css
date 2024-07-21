@@ -1,0 +1,120 @@
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(
+    to right,
+    #2980b9,
+    #6dd5fa,
+    #ffffff
+  ); /* Gradient background */
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 40px 0;
+  transition: background-color 0.3s ease;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Light background color with transparency */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.contact ul {
+  margin-top: 10px;
+}
+
+.contact ul li {
+  font-size: 1.2rem;
+}
+
+/* Animation */
+.project:hover,
+.experience-item:hover,
+.contact ul li:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.95
+  ); /* Lighter background color on hover */
+  cursor: pointer;
+}
